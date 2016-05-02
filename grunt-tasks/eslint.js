@@ -11,7 +11,7 @@ module.exports = function eslint(grunt) {
         },
         target: [
             'grunt-tasks/**/*.js',
-            'Gruntfile.js',
+            'Gruntfile.js'
         ]
     });
 };

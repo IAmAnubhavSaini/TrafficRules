@@ -8,7 +8,7 @@ module.exports = function (grunt) {
 
     grunt.loadTasks('grunt-tasks');
     grunt.registerTask('lint', [ 'eslint' ]);
-    grunt.registerTask('test', ['lint']);
-    grunt.registerTask('default', ['test']);
+    grunt.registerTask('test', [ 'lint' ]);
+    grunt.registerTask('default', [ 'test' ]);
 };
 
