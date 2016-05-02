@@ -1,0 +1,14 @@
+# Directories that contains artifacts.
+node_modules/
+bower_components/
+
+
+
+# Temporary files
+*~
+.*~
+.tmp
+.bck
+.back
+.backup
+
