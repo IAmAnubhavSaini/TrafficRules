@@ -1,7 +1,9 @@
 # Directories that contains artifacts.
 node_modules/
 bower_components/
-
+.packages
+.pub/
+pubspec.lock
 
 
 # Temporary files
@@ -11,4 +13,3 @@ bower_components/
 .bck
 .back
 .backup
-

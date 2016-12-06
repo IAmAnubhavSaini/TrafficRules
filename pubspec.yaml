@@ -1,4 +1,4 @@
-name: 'traffic-rules'
+name: traffic_rules
 description: 'Making traffic rules known and traffic safer.'
 version: 0.0.1
 environment:

@@ -21,7 +21,6 @@ Rules about safer traffic.
 
 ```
 git pull --rebase upstream master 
-npm install && grunt
 ```
 
 # License
