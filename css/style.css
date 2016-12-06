@@ -1,0 +1,33 @@
+.signs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sign, .sign .caption, .sign .description {
+  padding: 5px;
+  margin: 5px;
+}
+
+.sign {
+
+  border: thin solid #333;
+  width: 350px;
+  height: 400px;
+  text-align: center;
+}
+
+  .sign .caption {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .sign .description {
+    margin-top: 50px;
+  }
+
+.sign:nth-child(2n+1) {
+  border-color: #aaa;
+}
