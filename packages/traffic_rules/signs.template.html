@@ -1,0 +1,9 @@
+<div class="signs">
+  <div *ngFor="let sign of signs" class="sign">
+    <div class="caption">{{sign.caption}}</div>
+    <img src="/img/{{sign.image}}" alt="{{sign.description}}">
+    <div class="description">
+      {{sign.description}}
+    </div>
+  </div>
+</div>
