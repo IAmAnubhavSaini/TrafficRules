@@ -5,6 +5,7 @@ bower_components/
 .pub/
 pubspec.lock
 build/
+packages/
 
 # Temporary files
 *~
