@@ -20,7 +20,9 @@ Rules about safer traffic.
 `master` is main branch. Never make changes to it. Always create a feature branch.
 
 ```
-git pull --rebase upstream master 
+git pull --rebase upstream master
+pub install
+pub serve
 ```
 
 # License
