@@ -1,14 +1,21 @@
+.signs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .sign, .sign .caption, .sign .description {
   padding: 5px;
   margin: 5px;
 }
 
 .sign {
+
   border: thin solid #333;
   width: 350px;
   height: 400px;
   text-align: center;
-  float:left;
 }
 
   .sign .caption {
