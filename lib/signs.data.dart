@@ -198,7 +198,7 @@ final List<Sign> allSigns = [
   new Sign("TJunction"
   , "Straight road ends, must go either left or right."
   , "T junction"
-, ".png"),
+, "41.png"),
 
   new Sign("YJunction"
   , "Straight road ends, must go either left or right, somewhat in straight direction."
