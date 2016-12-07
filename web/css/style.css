@@ -1,3 +1,9 @@
+body {
+  padding: 0;
+  margin: 0;
+  min-width: 400px;
+}
+
 .signs {
   display: flex;
   flex-direction: row;
@@ -30,4 +36,23 @@
 
 .sign:nth-child(2n+1) {
   border-color: #aaa;
+}
+
+/* counters */
+.signs {
+  counter-reset: signs;
+}
+
+.sign {
+  counter-increment: signs;
+}
+
+.sign::before {
+  content: counter(signs);
+    position: relative;
+    left: -150px;
+    padding: 10px;
+    background-color: #eee;
+    min-width: 30px;
+    display: inline-block;
 }
